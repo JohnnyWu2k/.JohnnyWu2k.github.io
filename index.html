@@ -9,22 +9,41 @@
             font-family: Arial, sans-serif;
             background-color: #f8f8f8;
             color: #333;
-            padding: 20px;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
         }
         h1 {
             text-align: center;
             color: #555;
+            margin-bottom: 30px;
         }
         ul {
             list-style-type: none;
             padding: 0;
+            max-width: 400px;
+            width: 100%;
         }
         li {
-            margin: 10px 0;
+            margin: 15px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: translateY(-5px);
         }
         a {
+            display: block;
+            padding: 15px;
             text-decoration: none;
             color: #007acc;
+            text-align: center;
+            font-weight: bold;
         }
         a:hover {
             color: #005f99;
@@ -34,10 +53,10 @@
 <body>
     <h1>Welcome to My Project Hub</h1>
     <ul>
-        <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
-        <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
-        <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3</a></li>
-        <!-- 添加更多超連結以指向其他專案 -->
+        <li><a href="https://github.com/JohnnyWu2k/LVCG" target="_blank">LVCG</a></li>
+        <li><a href="https://github.com/JohnnyWu2k/IRNS" target="_blank">IRNS</a></li>
+        <li><a href="https://github.com/JohnnyWu2k/LXTW" target="_blank">LXTW</a></li>
+        <!-- Add more links to other projects here -->
     </ul>
 </body>
 </html>
